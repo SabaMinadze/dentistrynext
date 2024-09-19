@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './page.module.css'
 import Card from '../components/Card/Card'
+import Link from 'next/link'
 
 
 
@@ -10,7 +11,7 @@ const page = () => {
     <div className={styles.bigBox}>
       <h1 className={styles.text}>სერვისები</h1>
       <div className={styles.cardsBox}>
-        <Card title="თერაპიული სტომატოლოგია"/>
+        <Link href="/servicesandprices/prices"><Card title="თერაპიული სტომატოლოგია"/></Link>
         <Card title="ბავშვთა სტომატოლოგია"/>
         <Card title="ქირურგიული სტომატოლოგია"/>
       </div>

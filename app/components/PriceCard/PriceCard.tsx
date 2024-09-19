@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Card2.module.css';
+import styles from './PriceCard.module.css';
 
 interface CardProps {
   txt: string;
@@ -7,9 +7,11 @@ interface CardProps {
 
 const PriceCard: React.FC<CardProps> = ({ txt }) => {
   return (
+    <>
     <div className={styles.box}>
       <h1 className={styles.txt}>{txt}</h1>
     </div>
+    </>
   );
 };
 

@@ -3,6 +3,7 @@
   .bigBox {
     border: 1px solid gray;
     padding: 20px; /* Add padding for better spacing */
+    transform: translateY(50px);
   }
 
   .subBox {
