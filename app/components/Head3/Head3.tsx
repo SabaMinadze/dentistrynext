@@ -1,12 +1,18 @@
-import React from 'react'
-import s from "./Head3.module.css"
+import React from 'react';
+import Image from 'next/image';
+import styles from './Head3.module.css';
+import logo from '../public/assets/logo2.jpg'; // Move the logo to the public/assets folder
 
-function Head3() {
+const Head3 = () => {
   return (
-    <>
-    <div>Head3 page</div>
-    </>
-  )
-}
+    <div>
+      <div className={styles.box}>
+        <center><h1>დენტისტრი</h1></center>
+        <center><button>კითხვა გაქვთ? დაგვიკავშირდით</button></center>
+        <center><Image src={logo} alt="error" className={styles.logo} /></center>
+      </div>
+    </div>
+  );
+};
 
-export default Head3
+export default Head3;
