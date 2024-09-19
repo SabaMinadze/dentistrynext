@@ -1,31 +1,19 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import styles from './DentalCard.module.css'
-import Image from 'next/image'
+import React from 'react';
+import styles from './DentalCard.module.css';
+import Image from 'next/image';
+import kbili from "../public/assets/kbili1.jpg"
 
 const DentalCard = ({ nivti }) => {
   return (
-    <div className={styles.box}>
+    <div className={styles.boX}>
       <div className={styles.dentalCard}>
-        <Image
-          src="/assets/noimage.png"
-          alt="errors"
-          height={200}
-          width={280}
-          className={styles.img}
-        />
+        <Image src="/../public/assets/kbili1.jpg" alt="errors" width={300} height={300} className={styles.cardImg} />
         <h1 className={styles.h1}>{nivti.name}</h1>
         <h2 className={styles.h2}>{nivti.profession}</h2>
       </div>
     </div>
-  )
-}
+  );
+};
 
-DentalCard.propTypes = {
-  nivti: PropTypes.shape({
-    name: PropTypes.string.isRequired,
-    profession: PropTypes.string.isRequired
-  }).isRequired
-}
+export default DentalCard;
 
-export default DentalCard

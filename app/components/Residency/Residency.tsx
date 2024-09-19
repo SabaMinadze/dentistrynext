@@ -6,7 +6,7 @@ const Residency = () => {
   return (
     <div className={styles.hugeBox}>
       <div className={styles.box}>
-        <center><h2>რეზიდენტურა</h2></center>
+        <center><h2 className={styles.h2}>რეზიდენტურა</h2></center>
       </div>
       <div className={styles.bigBox}>
         <center>

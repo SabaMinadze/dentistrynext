@@ -1,21 +1,20 @@
-import React from 'react'
-import s from "./Achivements.module.css"
-import Image from 'next/image'
+import Image from 'next/image'; // Import Image from Next.js for optimized images
+import styles from './Achivements.module.css'; // Import CSS module
 
-function Achivements() {
+const Achievements = () => {
   return (
-    <>
-      <div className={s.bigBox}>
-        <h2 className={s.h2}>ჩვენი მიღწევები</h2>
-        <div>
-          <Image src="/assets/kbili1.jpg" alt="error" height={300} width={300} className={s.img}/>
-          <Image src="/assets/kbili2.jpg" alt="error" height={300} width={300} />
-          <Image src="/assets/kbili3.jpg" alt="error" height={300} width={300} />
-          <Image src="/assets/kbili4.jpg" alt="error" height={300} width={300} />
+    <div>
+      <center>
+        <div className={styles.bigBox}>
+          <h2 className={styles.h2}>ჩვენი მიღწევები</h2>
+          <Image src="/assets/kbili1.jpg" alt="Achievement 1" height={300} width={300} className={styles.image} />
+          <Image src="/assets/kbili2.jpg" alt="Achievement 2" height={300} width={300} className={styles.image} />
+          <Image src="/assets/kbili3.jpg" alt="Achievement 3" height={300} width={300} className={styles.image} />
+          <Image src="/assets/kbili4.jpg" alt="Achievement 4" height={300} width={300} className={styles.image} />
         </div>
-      </div>
-    </>
-  )
-}
+      </center>
+    </div>
+  );
+};
 
-export default Achivements
+export default Achievements;
