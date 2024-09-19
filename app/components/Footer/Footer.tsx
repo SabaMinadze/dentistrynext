@@ -22,7 +22,7 @@ const Footer = () => {
         <hr className={styles.footerHr} />
       </center>
       <center>
-        <h2 className={styles.footerText}>🗺️ ქ. თბილისი, დიდუბე, ვახუშტი ბაგრატიონის #19</h2>
+        <h2 className={styles.footerText}>🗺️ პეკინის ქუჩა 17</h2>
       </center>
     </div>
   );
