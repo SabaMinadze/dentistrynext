@@ -1,5 +1,4 @@
 import React from 'react'
-import s from "./page.module.css"
 import Head1 from './components/Head1/Head1'
 import Head2 from './components/Head2/Head2'
 import Head3 from './components/Head3/Head3'

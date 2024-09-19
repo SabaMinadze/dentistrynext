@@ -1,9 +1,20 @@
 import React from 'react';
 import styles from './DentalCard.module.css';
 import Image from 'next/image';
-import kbili from "../../public/assets/noimage.png"
+import kbili from '../../public/assets/noimage.png';
 
-const DentalCard = ({ nivti }) => {
+// Define the type for the nivti prop
+interface Nivti {
+  name: string;
+  profession: string;
+}
+
+// Define the props type for the DentalCard component
+interface DentalCardProps {
+  nivti: Nivti;
+}
+
+const DentalCard: React.FC<DentalCardProps> = ({ nivti }) => {
   return (
     <div className={styles.boX}>
       <div className={styles.dentalCard}>
@@ -16,4 +27,5 @@ const DentalCard = ({ nivti }) => {
 };
 
 export default DentalCard;
+
 
