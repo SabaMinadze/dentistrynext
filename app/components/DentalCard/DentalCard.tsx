@@ -20,7 +20,7 @@ const DentalCard: React.FC<DentalCardProps> = ({ nivti }) => {
       <div className={styles.dentalCard}>
         <Image src={kbili} alt="errors" width={289} height={200} className={styles.cardImg} />
         <h1 className={styles.h1}>{nivti.name}</h1>
-        <h2 className={styles.h2}>{nivti.profession}</h2>
+        <center><h2 className={styles.h2}>{nivti.profession}</h2></center>
       </div>
     </div>
   );
