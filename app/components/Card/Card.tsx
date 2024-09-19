@@ -4,7 +4,7 @@ import styles from './Card.module.css'
 const Card = () => {
   return (
     <div className={styles.box}>
-      <h2>პარადონტოლოგია</h2>
+      <h2 className={styles.h2}>პარადონტოლოგია</h2>
     </div>
   )
 }

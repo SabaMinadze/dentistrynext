@@ -5,17 +5,17 @@ import Image from 'next/image'
 
 const DentalCard = ({ nivti }) => {
   return (
-    <div className={styles.boX}>
+    <div className={styles.box}>
       <div className={styles.dentalCard}>
         <Image
           src="/assets/noimage.png"
           alt="errors"
           height={200}
           width={280}
-          className={styles.cardImg}
+          className={styles.img}
         />
-        <h1>{nivti.name}</h1>
-        <h2>{nivti.profession}</h2>
+        <h1 className={styles.h1}>{nivti.name}</h1>
+        <h2 className={styles.h2}>{nivti.profession}</h2>
       </div>
     </div>
   )

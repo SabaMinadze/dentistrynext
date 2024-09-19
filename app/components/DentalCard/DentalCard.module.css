@@ -10,16 +10,16 @@
       color: silver;
     }
   
-    img {
+    .img {
       border-radius: 10px;
     }
   
-    h1 {
+    .h1 {
       font-size: 20px;
       font-weight: 700;
     }
   
-    h2 {
+    .h2 {
       font-size: 21px;
     }
   }
@@ -45,12 +45,12 @@
       border-radius: 10px;
     }
   
-    h1 {
+    .h1 {
       font-size: 18px;
       font-weight: 700;
     }
   
-    h2 {
+    .h2 {
       font-size: 19px;
     }
   }
@@ -76,12 +76,12 @@
       border-radius: 10px;
     }
   
-    h1 {
+    .h1 {
       font-size: 16px;
       font-weight: 700;
     }
   
-    h2 {
+    .h2 {
       font-size: 16px;
     }
   }
@@ -99,11 +99,11 @@
       width: auto;
     }
   
-    h1 {
+    .h1 {
       font-size: 14px;
     }
   
-    h2 {
+    .h2 {
       font-size: 19px;
     }
   }

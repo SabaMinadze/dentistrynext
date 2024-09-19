@@ -10,12 +10,12 @@ const Head2 = () => {
         <Image src={logo} alt="error" height={110} width={190} className={styles.logo} />
         <div className={styles.vl}></div>
         <ul className={styles.navList}>
-          <li><p>მთავარი</p></li>
-          <li><p>სერვისები</p></li>
-          <li><p>რეზიდენტურა</p></li>
-          <li><p>ჩვენი სტომატოლოგები</p></li>
-          <li><p>ჩვენს შესახებ</p></li>
-          <li><p>კონტაქტი</p></li>
+          <li><p className={styles.p}>მთავარი</p></li>
+          <li><p className={styles.p}>სერვისები</p></li>
+          <li><p className={styles.p}>რეზიდენტურა</p></li>
+          <li><p className={styles.p}>ჩვენი სტომატოლოგები</p></li>
+          <li><p className={styles.p}>ჩვენს შესახებ</p></li>
+          <li><p className={styles.p}>კონტაქტი</p></li>
         </ul>
       </div>
     </div>

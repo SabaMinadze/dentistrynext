@@ -6,7 +6,7 @@
       background-color: white;
     }
   
-    h1 {
+    .h1 {
       color: silver;
       font-weight: 900;
       margin-left: -980px;
@@ -14,7 +14,7 @@
       font-size: 28px;
     }
   
-    button {
+    .button {
       margin-left: -830px;
       background-color: silver;
       width: 350px;
@@ -28,7 +28,7 @@
       cursor: pointer;
     }
   
-    button:hover {
+    .button:hover {
       background-color: rgb(95, 89, 89);
     }
   
@@ -48,14 +48,14 @@
       background-color: white;
     }
   
-    h1 {
+    .h1 {
       color: silver;
       font-weight: 900;
       transform: translateY(270px);
       font-size: 25px;
     }
   
-    button {
+    .button {
       background-color: silver;
       width: 350px;
       height: 40px;
@@ -67,7 +67,7 @@
       cursor: pointer;
     }
   
-    button:hover {
+    .button:hover {
       background-color: rgb(95, 89, 89);
       transition: 0.5s;
     }

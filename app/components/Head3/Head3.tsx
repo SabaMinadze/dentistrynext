@@ -7,8 +7,8 @@ const Head3 = () => {
   return (
     <div>
       <div className={styles.box}>
-        <center><h1>დენტისტრი</h1></center>
-        <center><button>კითხვა გაქვთ? დაგვიკავშირდით</button></center>
+        <center><h1 className={styles.h1}>დენტისტრი</h1></center>
+        <center><button className={styles.button}>კითხვა გაქვთ? დაგვიკავშირდით</button></center>
         <center><Image src={logo} alt="error" className={styles.logo} /></center>
       </div>
     </div>

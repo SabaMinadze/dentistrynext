@@ -36,7 +36,7 @@
       gap: 20px;
     }
   
-    p {
+    .p {
       font-weight: 600;
       margin-top: 5px;
       cursor: pointer;
@@ -95,7 +95,7 @@
       transform: translateY(160px);
     }
   
-    p {
+    .p {
       font-weight: 600;
       margin-top: 5px;
     }
