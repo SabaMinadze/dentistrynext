@@ -6,6 +6,7 @@ import logo from "../../public/assets/logo2.jpg"
 const Footer = () => {
   return (
     <>
+      <br /><br /><br />
       <div className={styles.footer}>
         <center>
           <Image
@@ -26,7 +27,6 @@ const Footer = () => {
           <h2 className={styles.footerText}>🗺️ პეკინის ქუჩა 17</h2>
         </center>
       </div>
-      <br /><br /><br />
     </>
   );
 };
