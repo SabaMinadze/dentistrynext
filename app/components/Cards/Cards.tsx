@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Cards.module.css'
 import Card from '../Card/Card'
+import Link from 'next/link'
 
 
 
@@ -10,21 +11,21 @@ const Cards = () => {
     <div className={styles.bigBox}>
       <h1 className={styles.text}>სერვისები</h1>
       <div className={styles.cardsBox}>
-        <Card title="თერაპიული სტომატოლოგია"/>
-        <Card title="ბავშვთა სტომატოლოგია"/>
-        <Card title="ქირურგიული სტომატოლოგია"/>
+        <Link href="/servicesandprices/prices"><Card title="თერაპიული სტომატოლოგია"/></Link>
+        <Link href="/servicesandprices/prices2"><Card title="ბავშვთა სტომატოლოგია"/></Link>
+        <Link href="/servicesandprices/prices3"><Card title="ქირურგიული სტომატოლოგია"/></Link>
       </div>
       <br />
       <div className={styles.cardsBox}>
-        <Card title="ორთოპედია"/>
-        <Card title="ორთოდონტია"/>
-        <Card title="გნათოლოგია"/>
+        <Link href="/servicesandprices/prices4"><Card title="ორთოპედია"/></Link>
+        <Link href="/servicesandprices/prices5"><Card title="ორთოდონტია"/></Link>
+        <Link href="/servicesandprices/prices6"><Card title="გნათოლოგია"/></Link>
       </div>
       <br />
       <div className={styles.cardsBox}>
-        <Card title="იმპლანტოლოგია"/>
-        <Card title="ესთეიური სტომატოლოგია"/>
-        <Card title="პარადონტოლოგია"/>
+        <Link href="/servicesandprices/prices7"><Card title="იმპლანტოლოგია"/></Link>
+        <Link href="/servicesandprices/prices8"><Card title="ესთეიური სტომატოლოგია"/></Link>
+        <Link href="/servicesandprices/prices9"><Card title="პარადონტოლოგია"/></Link>
       </div>
       <br />
       <br />
