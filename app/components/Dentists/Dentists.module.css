@@ -1,7 +1,6 @@
 /* Styles for larger screens */
 @media (min-width: 1200px) and (max-width: 7777px) {
   .bigBox {
-    background-color: rgb(230, 40, 40);
     border: 1px solid gray;
     padding: 20px; /* Add padding for better spacing */
   }
@@ -23,7 +22,6 @@
   .dentalCard {
     flex: 0 1 calc(33.33% - 20px); /* 33.33% width minus spacing */
     margin-top: 20px;
-    background-color: rgb(254, 71, 25);
     font-size: 17px;
     border-radius: 10px;
     border: 1px solid silver;
@@ -75,7 +73,6 @@
     width: 90%; /* Adjust width for smaller screens */
     max-width: 300px;
     margin-top: 10px;
-    background-color: rgb(254, 71, 25);
     font-size: 15px;
     padding: 10px;
   }

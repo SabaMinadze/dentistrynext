@@ -3,17 +3,18 @@
   .dentalCard {
     height: 330px;
     width: 290px;
-    background-color: rgb(12, 99, 221);
+    background-color: rgb(236,244,255);
     font-size: 17px;
     gap: 70px;
     border-radius: 10px;
     border: 1px solid silver;
     color: silver;
     text-align: center;
+    margin-top: 30px;
   }
 
   .cardImg {
-    border-radius: 10px;
+    border-radius: 5px;
   }
 
   .h1 {
