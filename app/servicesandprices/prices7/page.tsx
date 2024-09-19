@@ -9,8 +9,6 @@ function page() {
         <br/>
         <PriceCard txt="სინუს-ლიფტინგი: 2500₾ დან"/>
         <br/>
-        <PriceCard txt=""/>
-        <br/>
 
 
     </>
