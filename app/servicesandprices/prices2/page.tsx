@@ -13,8 +13,6 @@ function page() {
         <br/>
         <PriceCard txt="წმენდა: 80₾ - 120₾"/>
         <br/>
-        <PriceCard txt="რთული ექსქტრაქცია: 50₾ - 80₾"/>
-        <br/>
     </>
   )
 }

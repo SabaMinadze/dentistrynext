@@ -11,9 +11,9 @@ const Residency = () => {
       <div className={styles.bigBox}>
         <center>
           <div className={styles.cardsBox}>
-            <Card title="თერაპიული რეზიდენტურა"/>
-            <Card title="ორთოდონტიური რეზიდენტურა"/>
-            <Card title="ბავშვთა თერაპიული სტომატოლოგია"/>
+            <Card title="თერაპია"/>
+            <Card title="ორთოდონტია"/>
+            <Card title="ბავშვთა სტომატოლოგია"/>
             <Card title="პირის ღრუს ქირურგია"/>
           </div>
         </center>
