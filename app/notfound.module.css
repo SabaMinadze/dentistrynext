@@ -1,23 +1,24 @@
 .notFoundBox{
-    background-color: red;
+    background-color: silver;
+    height: 700px;
 }
 
 .notFoundCode {
     font-size: 190px;
-    margin-top: 150px;
-    color: silver;
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
 }
 
 .notFound {
     font-size: 50px;
-    color: silver;
+    color: rgb(255, 255, 255);
 }
 
 .notFoundText {
     font-size: 19px;
     font-weight: 500;
     margin-top: 10px;
-    color: silver;
+    color: rgb(255, 255, 255);
 }
 
 .img2 {
