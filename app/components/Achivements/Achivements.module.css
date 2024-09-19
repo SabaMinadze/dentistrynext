@@ -2,8 +2,8 @@
 @media (min-width: 1200px) {
     .bigBox {
       transform: translateY(-440px);
-      height: 100px;
-      margin-top: 50px;
+      height: 40px;
+      margin-top: 60px;
     }
   
     .image {

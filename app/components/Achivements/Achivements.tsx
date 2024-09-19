@@ -1,9 +1,9 @@
 import Image from 'next/image'; // Import Image from Next.js for optimized images
 import styles from './Achivements.module.css'; // Import CSS module
-import kbili1 from "../public/assets/kbili1.jpg"
-import kbili2 from "../public/assets/kbili2.jpg"
-import kbili3 from "../public/assets/kbili3.jpg"
-import kbili4 from "../public/assets/kbili4.jpg"
+import kbili1 from "../../public/assets/kbili1.jpg"
+import kbili2 from "../../public/assets/kbili2.jpg"
+import kbili3 from "../../public/assets/kbili3.jpg"
+import kbili4 from "../../public/assets/kbili4.jpg"
 
 const Achievements = () => {
   return (

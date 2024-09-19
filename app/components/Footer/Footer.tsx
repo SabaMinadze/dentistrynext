@@ -1,13 +1,14 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from './Footer.module.css';
+import logo from "../../public/assets/logo2.jpg"
 
 const Footer = () => {
   return (
     <div className={styles.footer}>
       <center>
         <Image
-          src="/assets/logo2.jpg"
+          src={logo}
           alt="error"
           className={styles.footerImg}
           height={150}
