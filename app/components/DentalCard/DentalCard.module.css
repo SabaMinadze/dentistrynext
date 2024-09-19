@@ -75,7 +75,7 @@
 
   .cardImg {
     height: 150px;
-    width: auto;
+    width: 500px;
     border-radius: 10px;
   }
 
@@ -99,7 +99,7 @@
 
   .cardImg {
     height: 180px;
-    width: auto;
+    width: 270px;
   }
 
   .h1 {
