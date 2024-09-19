@@ -1,0 +1,100 @@
+.notFoundBox{
+    background-color: red;
+}
+
+.notFoundCode {
+    font-size: 190px;
+    margin-top: 150px;
+    color: silver;
+}
+
+.notFound {
+    font-size: 50px;
+    color: silver;
+}
+
+.notFoundText {
+    font-size: 19px;
+    font-weight: 500;
+    margin-top: 10px;
+    color: silver;
+}
+
+.img2 {
+    margin-top: 60px;
+    border-radius: 270px;
+    width: 200px; /* Ensure image has a fixed size */
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .notFoundCode {
+        font-size: 160px;
+    }
+
+    .notFound {
+        font-size: 40px;
+    }
+
+    .notFoundText {
+        font-size: 18px;
+    }
+
+    .img2 {
+        width: 180px;
+    }
+}
+
+@media (max-width: 900px) {
+    .notFoundCode {
+        font-size: 130px;
+    }
+
+    .notFound {
+        font-size: 35px;
+    }
+
+    .notFoundText {
+        font-size: 16px;
+    }
+
+    .img2 {
+        width: 160px;
+    }
+}
+
+@media (max-width: 600px) {
+    .notFoundCode {
+        font-size: 100px;
+    }
+
+    .notFound {
+        font-size: 30px;
+    }
+
+    .notFoundText {
+        font-size: 14px;
+    }
+
+    .img2 {
+        width: 140px;
+    }
+}
+
+@media (max-width: 400px) {
+    .notFoundCode {
+        font-size: 80px;
+    }
+
+    .notFound {
+        font-size: 25px;
+    }
+
+    .notFoundText {
+        font-size: 12px;
+    }
+
+    .img2 {
+        width: 120px;
+    }
+}

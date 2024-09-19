@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
-import styles from './Head3.module.css'; // Import your CSS module
-import logo from '../../public/assets/logo2.jpg'; // Import your image
+import styles from './Head3.module.css';
+import logo from '../../public/assets/logo2.jpg';
 
 const Head3: React.FC = () => {
   return (
