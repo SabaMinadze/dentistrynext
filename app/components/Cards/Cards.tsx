@@ -1,12 +1,27 @@
 import React from 'react'
-import s from "./Cards.module.css"
+import styles from './App.module.css'
+import Card from '../Card/Card'
 
-function Cards() {
+const App = () => {
   return (
-    <>
-    <div>Cards page</div>
-    </>
+    <div className={styles.bigBox}>
+      <h1 className={styles.text}>სერვისები</h1>
+      <div className={styles.cardsBox}>
+        <Card />
+        <Card />
+        <Card />
+      </div>
+      <br />
+      <div className={styles.cardsBox}>
+        <Card />
+        <Card />
+        <Card />
+      </div>
+      <br />
+      <br />
+      <br />
+    </div>
   )
 }
 
-export default Cards
+export default App
