@@ -73,13 +73,13 @@
     .txt{
       color: rgb(255, 255, 255);
       margin-left: 25px;
-      transform: translateY(50px);
+      transform: translateY(20px);
       font-size: 15px;
     }
   
     .vl {
       border-left: 1px solid white;
-      height: 134.7px;
+      height: 100px;
       position: absolute;
       left: 27%;
       margin-left: 75px;
