@@ -1,0 +1,90 @@
+/* Styles for larger screens */
+@media (min-width: 1200px) and (max-width: 7777px) {
+    .bigBox {
+      border: 1px solid gray;
+      padding: 20px; /* Add padding for better spacing */
+      transform: translateY(50px);
+    }
+  
+    .subBox {
+      display: flex;
+      justify-content: center; /* Center content horizontally */
+      padding: 20px;
+    }
+  
+    .card {
+      display: flex;
+      flex-wrap: wrap; /* Allow wrapping of cards */
+      justify-content: space-between; /* Distribute items evenly */
+      max-width: 1100px; /* Set a max-width to prevent overflow */
+      width: 100%;
+    }
+  
+    .dentalCard {
+      flex: 0 1 calc(33.33% - 20px); /* 33.33% width minus spacing */
+      margin-top: 20px;
+      font-size: 17px;
+      border-radius: 10px;
+      border: 1px solid silver;
+      color: silver;
+      text-align: center;
+      padding: 10px; /* Add padding inside the card */
+    }
+  
+    .cardImg {
+      border-radius: 10px;
+      width: 100%;
+      height: auto;
+      background-color: rgb(136, 25, 254);
+    }
+  
+    .txt {
+      font-size: 30px;
+      font-weight: 700;
+      color: silver;
+      text-align: center;
+      margin-bottom: 20px; /* Add margin to separate from other content */
+    }
+  }
+  
+  /* Styles for smaller screens */
+  @media (min-width: 220px) and (max-width: 950px) {
+    .bigBox {
+      background-color: white;
+      border: 1px solid gray;
+      margin-top: 50px;
+      padding: 20px; /* Add padding for better spacing */
+    }
+  
+    .subBox {
+      display: flex;
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center items horizontally */
+      padding: 20px;
+    }
+  
+    .card {
+      display: flex;
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center items horizontally */
+      width: 100%;
+    }
+  
+    .dentalCard {
+      width: 90%; /* Adjust width for smaller screens */
+      max-width: 300px;
+      margin-top: 10px;
+      font-size: 15px;
+      padding: 10px;
+    }
+  
+    .cardImg {
+      height: 150px;
+      width: auto;
+    }
+  
+    .txt {
+      font-size: 24px;
+    }
+  }
+  

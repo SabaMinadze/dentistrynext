@@ -14,7 +14,7 @@ const Head2 = () => {
           <li><p className={styles.p}>მთავარი</p></li>
           <Link href="/servicesandprices"><li><p className={styles.p}>სერვისები და ფასები</p></li></Link>
           <li><p className={styles.p}>რეზიდენტურა</p></li>
-          <li><p className={styles.p}>ჩვენი სტომატოლოგები</p></li>
+          <Link href="/dentists"><li><p className={styles.p}>ჩვენი სტომატოლოგები</p></li></Link>
           <li><p className={styles.p}>ჩვენს შესახებ</p></li>
           <li><p className={styles.p}>კონტაქტი</p></li>
         </ul>
