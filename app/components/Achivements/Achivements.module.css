@@ -1,0 +1,47 @@
+@media (min-width: 1200px) and (max-width: 7777px){
+    .bigBox{
+        transform: translateY(-440px);
+        height: 10px;
+}
+
+img{
+    border: 5px solid silver;
+    margin-left: 30px;
+    border-radius: 10px;
+    width: 270px;
+
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: silver;
+    transform: translateY(-30px);
+}
+
+}
+
+@media (min-width: 220px) and (max-width: 950px){
+    .bigBox{
+        margin-top: 40px;
+        background-color: white;
+    
+}
+
+img{
+    border: 5px solid silver;;
+    margin-left: 30px;
+    border-radius: 10px;
+    width: 270px;
+
+}
+
+h2{
+    font-size: 28px;
+    font-weight: 700;
+    color: silver;
+    transform: translateY(-3px);
+}
+
+
+}
