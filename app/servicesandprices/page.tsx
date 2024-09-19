@@ -1,11 +1,11 @@
 import React from 'react'
-import styles from './Cards.module.css'
-import Card from '../Card/Card'
+import styles from './page.module.css'
+import Card from '../components/Card/Card'
 
 
 
 
-const Cards = () => {
+const page = () => {
   return (
     <div className={styles.bigBox}>
       <h1 className={styles.text}>სერვისები</h1>
@@ -33,4 +33,4 @@ const Cards = () => {
   )
 }
 
-export default Cards
+export default page

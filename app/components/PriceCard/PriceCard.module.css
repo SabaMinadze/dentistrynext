@@ -1,0 +1,13 @@
+.box{
+    height: 70px;
+    background-color: silver;
+    width: 330px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.txt{
+    font-size: 20px;
+    color: white;
+    margin-left: 15px;
+}
