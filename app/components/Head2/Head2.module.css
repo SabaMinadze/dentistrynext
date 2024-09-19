@@ -53,7 +53,7 @@
   /* Styles for mobile screens */
   @media (min-width: 220px) and (max-width: 950px) {
     .bigBox {
-      position: sticky;
+      
       top: 0;
       width: 100%;
       background-color: #333;
@@ -88,7 +88,7 @@
     .navList {
       display: flex;
       list-style: none;
-      color: rgb(167, 22, 22);
+      color: white;
       font-size: 1px;
       font-weight: 700;
       margin-left: -40px;
