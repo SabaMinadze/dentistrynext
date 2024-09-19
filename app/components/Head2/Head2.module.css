@@ -61,7 +61,7 @@
   /* Styles for mobile screens */
   @media (min-width: 220px) and (max-width: 950px) {
     .bigBox {
-      
+      position: sticky;
       top: 0;
       width: 100%;
       background-color: #333;
