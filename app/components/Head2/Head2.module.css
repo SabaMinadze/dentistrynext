@@ -9,6 +9,14 @@
       box-shadow: gray;
       border: 1px solid white;
     }
+
+    .txt{
+      color: rgb(255, 255, 255);
+      font-size: 1px;
+      margin-left: 40px;
+      transform: translateY(30px);
+      color: silver;
+    }
   
     .vl {
       border-left: 1px solid white;
@@ -60,11 +68,18 @@
       z-index: 1000;
       box-shadow: rgb(132, 132, 132);
       border: 1px solid white;
+      height: 100px;
+    }
+    .txt{
+      color: rgb(255, 255, 255);
+      margin-left: 25px;
+      transform: translateY(50px);
+      font-size: 15px;
     }
   
     .vl {
       border-left: 1px solid white;
-      height: 80px;
+      height: 134.7px;
       position: absolute;
       left: 27%;
       margin-left: 75px;
@@ -72,13 +87,13 @@
     }
   
     .box {
-      height: 80px;
+      height: 100px;
       width: 100%;
       background-color: silver;
     }
   
     .logo {
-      height: 70px;
+      height: 90px;
       width: 150px;
       margin-left: 20px;
       margin-top: 5px;

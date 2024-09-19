@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div>
       <div className={styles.bigBox}>
-        <h2 className={styles.txt}>ჩვენი სტომატოლოგები</h2>
+        <h2 className={styles.txt}>ჩვენი გუნდი</h2>
         <div className={styles.subBox}>
           <div className={styles.card}>
             {data.map((item) => (

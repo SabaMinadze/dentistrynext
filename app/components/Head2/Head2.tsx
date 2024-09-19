@@ -9,7 +9,7 @@ const Head2 = () => {
     <div className={styles.bigBox}>
       <div className={styles.box}>
         <Link href="/"><Image src={logo} alt="error" height={110} width={190} className={styles.logo} /></Link>
-        <div className={styles.vl}></div>
+        <div className={styles.vl}><h4 className={styles.txt}>სტომატოლოგიური სასწავლო ცენტრი დენტისტრი</h4></div>
         <ul className={styles.navList}>
           <li><p className={styles.p}>მთავარი</p></li>
           <Link href="/servicesandprices"><li><p className={styles.p}>სერვისები და ფასები</p></li></Link>

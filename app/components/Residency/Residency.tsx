@@ -14,6 +14,7 @@ const Residency = () => {
             <Card title="თერაპიული რეზიდენტურა"/>
             <Card title="ორთოდონტიური რეზიდენტურა"/>
             <Card title="ბავშვთა თერაპიული სტომატოლოგია"/>
+            <Card title="პირის ღრუს ქირურგია"/>
           </div>
         </center>
         <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />

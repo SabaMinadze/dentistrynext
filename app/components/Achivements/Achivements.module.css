@@ -2,7 +2,7 @@
 @media (min-width: 1200px) {
     .bigBox {
       transform: translateY(-440px);
-      height: 40px;
+      height: 1px;
       margin-top: 60px;
     }
   
@@ -24,7 +24,7 @@
   /* Styles for mobile screens */
   @media (min-width: 220px) and (max-width: 950px) {
     .bigBox {
-      margin-top: 40px;
+      margin-top: 80px;
       background-color: white;
     }
   
