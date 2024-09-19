@@ -1,7 +1,5 @@
 import React from 'react'
-import styles from './page.module.css'
 import PriceCard from '@/app/components/PriceCard/PriceCard'
-import Link from 'next/link'
 
 function page() {
   return (

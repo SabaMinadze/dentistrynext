@@ -1,16 +1,15 @@
 import React from 'react'
-import styles from './page.module.css'
-import Card2 from '@/app/components/Card2/Card2'
+import PriceCard from '@/app/components/PriceCard/PriceCard'
 
 function page() {
   return (
     <>
         <br/>
-        <Card2 txt="პროთეზირება: 250₾ - 700₾"/>
+        <PriceCard txt="პროთეზირება: 250₾ - 700₾"/>
         <br/>
-        <Card2 txt="ცირკონოკერამიკა: 450₾ - 600₾"/>
+        <PriceCard txt="ცირკონოკერამიკა: 450₾ - 600₾"/>
         <br/>
-        <Card2 txt="მეტალოკერამიკა: 180₾ - 250₾"/>
+        <PriceCard txt="მეტალოკერამიკა: 180₾ - 250₾"/>
         <br/>
 
     </>
