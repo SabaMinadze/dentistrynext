@@ -1,12 +1,14 @@
-import React from 'react'
-import s from "./Button.module.css"
+import React from 'react';
+import s from './Button.module.css';
 
-function Button(props:any) {
-  return (
-    <>
-    <button className={s.btnMain}>{props.title}</button>
-    </>
-  )
+interface ButtonProps {
+  title: string;
 }
 
-export default Button
+function Button({ title }: ButtonProps) {
+  return (
+    <button className={s.btnMain}>{title}</button>
+  );
+}
+
+export default Button;
