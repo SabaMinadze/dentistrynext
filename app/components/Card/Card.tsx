@@ -1,7 +1,7 @@
 import React from 'react'
-import styles from './Parodontology.module.css'
+import styles from './Card.module.css'
 
-const Parodontology = () => {
+const Card = () => {
   return (
     <div className={styles.box}>
       <h2>პარადონტოლოგია</h2>
@@ -9,4 +9,4 @@ const Parodontology = () => {
   )
 }
 
-export default Parodontology
+export default Card

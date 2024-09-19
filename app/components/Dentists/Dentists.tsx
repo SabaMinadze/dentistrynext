@@ -1,10 +1,10 @@
 import React from 'react';
 import DentalCard from '../DentalCard/DentalCard';
 import data from "../../data.json"
-import styles from './App.module.css';
+import styles from './Dentists.module.css';
 
 
-const App = () => {
+const Dentists = () => {
   return (
     <div className={styles.bigBox}>
       <h2 className={styles.txt}>ჩვენი სტომატოლოგები</h2>
@@ -17,4 +17,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Dentists;

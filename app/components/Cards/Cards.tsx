@@ -1,8 +1,8 @@
 import React from 'react'
-import styles from './App.module.css'
+import styles from './Cards.module.css'
 import Card from '../Card/Card'
 
-const App = () => {
+const Cards = () => {
   return (
     <div className={styles.bigBox}>
       <h1 className={styles.text}>სერვისები</h1>
@@ -24,4 +24,4 @@ const App = () => {
   )
 }
 
-export default App
+export default Cards
