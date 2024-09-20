@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Head2.module.css';
 import Image from 'next/image';
-import logo from '../../public/assets/logo2.jpg'; // Move your logo to `public/assets`
+import logo from '../../public/assets/logo2.jpg'; 
 import Link from 'next/link';
 
 const Head2 = () => {
