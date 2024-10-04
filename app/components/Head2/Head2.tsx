@@ -23,4 +23,4 @@ const Head2 = () => {
   );
 };
 
-export default Head2;
+export default Head2
