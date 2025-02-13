@@ -7,7 +7,7 @@ function page() {
         <br/>
         <PriceCard txt="ფირფიტა: 300₾ - 450₾"/>
         <br/>
-        <PriceCard txt="ბრეკეტი: 350₾ - 600₾"/>
+        <PriceCard txt="ბრეკეტი: 350₾ - 600₾ - 800₾ - 1200₾"/>
         <br/>
         <PriceCard txt="ელაინერი: 4500₾ დან"/>
         <br/>
