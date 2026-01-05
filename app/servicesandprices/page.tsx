@@ -24,7 +24,7 @@ const page = () => {
       <br />
       <div className={styles.cardsBox}>
         <Link href="/servicesandprices/prices7"><Card title="იმპლანტოლოგია"/></Link>
-        <Link href="/servicesandprices/prices8"><Card title="ესთეიური სტომატოლოგია"/></Link>
+        <Link href="/servicesandprices/prices8"><Card title="ესთეტიური სტომატოლოგია"/></Link>
         <Link href="/servicesandprices/prices9"><Card title="პარადონტოლოგია"/></Link>
       </div>
       <br />
